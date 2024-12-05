@@ -10,7 +10,7 @@ Contains datasets and code for the paper "LLMs to Replace Crowdsourcing in Gener
 - [Lib Folder](#lib-folder)
 - [Output Folder](#output-folder)
 - [Pilot Folder](#pilot-folder)
-- [Plots Folder](#plot-folder)
+- [Plots Folder](#plots-folder)
 - [Possible use cases](#possible-use-cases)
 
 # Compare Syntax Template Folder
