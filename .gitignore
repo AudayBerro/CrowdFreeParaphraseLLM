@@ -1,0 +1,5 @@
+# Ignore the paper_drafts folder
+paper_drafts/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/

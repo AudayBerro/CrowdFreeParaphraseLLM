@@ -1,0 +1,52 @@
+input_utterance,intent,parameters,parse_template,source,row_pk
+Terminate i-a541 now,EndEC2Instance,"[['VM', 'i-a541']]",( ROOT ( FRAG ( NP ) ( ADVP ) ) ),ParaQuality,1
+Search for cooking videos,SearchWeb,"[['query', 'cooking videos']]",( ROOT ( S ( VP ) ) ),ParaQuality,2
+Find most popular photos tagged #LOVE,SearchWeb,"[['Tag', '#LOVE']]",( ROOT ( S ( VP ) ) ),ParaQuality,3
+Search for a few nice photos matching Opera House with size 1024px * 768px,SearchWeb,"[['size', '1024px * 768px'], ['query', 'Opera House']]",( ROOT ( FRAG ( S ) ( NP ) ) ),ParaQuality,4
+Are the burglar alarms in the office malfunctioning ?,CheckDevice,"[['location', 'office']]",( ROOT ( SQ ( VBP ) ( NP ) ( ADJP ) ( . ) ) ),ParaQuality,5
+Is the TV in the house off ?,CheckDevice,"[['device', 'TV']]",( ROOT ( SQ ( VBZ ) ( NP ) ( ADVP ) ( . ) ) ),ParaQuality,6
+Any suggestions for an inexpensive hotel near Seattle for tomorrow for 2,FindHotel,"[['location', 'Seattle'], ['num_of_guests', '2']]",( ROOT ( NP ( NP ) ( PP ) ) ),ParaQuality,7
+Are there any cheap hotels for 7-day stay somewhere near Riverside,FindHotel,"[['location', 'Riverside'], ['stay_length', '7-day']]",( ROOT ( SQ ( VBP ) ( NP ) ( ADVP ) ) ),ParaQuality,8
+Send an email to Phil telling her that ''I got you'',SendMail,"[['contact', 'Phil'], ['message', 'I got you']]",( ROOT ( S ( VP ) ) ),ParaQuality,9
+Give me 5 conference articles about text mining,FindArticles,"[['query', 'text mining'], ['count', '5'], ['article_type', 'conference articles']]",( ROOT ( S ( VP ) ) ),ParaQuality,10
+I am looking for the latest scientific article related to Machine Learning,FindArticles,[],( ROOT ( S ( NP ) ( VP ) ) ),ParaQuality,11
+Create a comment saying ''Best Voice Ever'',CreateComment,"[['value', 'Best Voice Ever']]",( ROOT ( S ( VP ) ) ),ParaQuality,12
+Jump to the previous song,NavigatePlaylist,[],( ROOT ( FRAG ( NP ) ( PP ) ) ),ParaQuality,13
+Skip to the next song,NavigatePlaylist,[],( ROOT ( S ( VP ) ) ),ParaQuality,14
+Where can I upgrade my laptop ?,FindStores,"[['query', 'laptop']]",( ROOT ( SBARQ ( WHADVP ) ( SQ ) ( . ) ) ),ParaQuality,15
+Could you offer three barbershops in Newtown,FindStores,"[['location', 'Newtown']]",( ROOT ( SQ ( MD ) ( NP ) ( VP ) ) ),ParaQuality,16
+Let me have top three convenience stores near Newtown,FindStores,"[['location', 'Newtown'], ['business', 'convenience stores']]",( ROOT ( S ( VP ) ) ),ParaQuality,17
+I want reviews for McDonald's at Kensington st.,GetReviews,"[['location', 'Kensington st.'], ['business', ""McDonald's""]]",( ROOT ( S ( NP ) ( VP ) ) ),ParaQuality,18
+How far is the closest cab,FindTaxi,[],( ROOT ( SBARQ ( WHADVP ) ( SQ ) ) ),ParaQuality,19
+Request a taxi from the airport to home,BookTaxi,"[['from', 'airport'], ['to', 'home']]",( ROOT ( S ( VP ) ) ),ParaQuality,20
+What is the forecast for Harrison-Crawford State Forest,GetWeather,"[['geographic_poi', 'Harrison-Crawford State Forest']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),SNIPS,21
+what is the forecast for colder in Anston,GetWeather,"[['condition_temperature', 'colder'], ['city', 'Anston']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),SNIPS,22
+How hot is it in Pesotum,GetWeather,"[['condition_temperature', 'hot'], ['city', 'Pesotum']]",( ROOT ( X ( SBARQ ) ) ),SNIPS,23
+"I would like to go to a pub that has italian dressing for a party of 5 on February 11, 2033",BookRestaurant,"[['restaurant_type', 'pub'], ['served_dish', 'italian dressing'], ['party_size_number', '5'], ['timeRange', 'February 11, 2033']]",( ROOT ( S ( NP ) ( VP ) ) ),SNIPS,24
+Book a taverna in Equatorial Guinea this month for nine people.,BookRestaurant,"[['restaurant_type', 'taverna'], ['country', 'Equatorial Guinea'], ['timeRange', 'this month'], ['party_size_number', 'nine']]",( ROOT ( S ( VP ) ( . ) ) ),SNIPS,25
+Book a table for eight people please,BookRestaurant,"[['party_size_number', 'eight']]",( ROOT ( S ( VP ) ) ),SNIPS,26
+Please add Ruud Jolie to my playlist Guest List Polygon,AddToPlaylist,"[['artist', 'Ruud Jolie'], ['playlist_owner', 'my'], ['playlist', 'Guest List Polygon']]",( ROOT ( S ( INTJ ) ( VP ) ) ),SNIPS,27
+add this artist named Kirk Hammett to my playlist Party,AddToPlaylist,"[['music_item', 'artist'], ['artist', 'Kirk Hammett'], ['playlist_owner', 'my'], ['playlist', 'Party']]",( ROOT ( S ( VP ) ) ),SNIPS,28
+I want to put a copy of this tune into Skatepark Punks,AddToPlaylist,"[['music_item', 'tune'], ['playlist', 'Skatepark Punks']]",( ROOT ( S ( NP ) ( VP ) ) ),SNIPS,29
+"I would give With Lee in Virginia, A Story of the American Civil War chronicle 4 of 6",RateBook,"[['object_name', 'With Lee in Virginia, A Story of the American Civil War'], ['object_part_of_series_type', 'chronicle'], ['rating_value', '4'], ['best_rating', '6']]",( ROOT ( S ( NP ) ( VP ) ) ),SNIPS,30
+Rate this album two out of 6,RateBook,"[['object_select', 'this'], ['object_type', 'album'], ['rating_value', 'two'], ['best_rating', '6']]",( ROOT ( S ( VP ) ) ),SNIPS,31
+Give the current part of the saga 4 points out of 6.,RateBook,"[['object_select', 'current'], ['object_part_of_series_type', 'saga'], ['rating_value', '4'], ['rating_unit', 'points'], ['best_rating', '6']]",( ROOT ( S ( VP ) ( . ) ) ),SNIPS,32
+Can you play some fifties music by lavern baker,PlayMusic,"[['year', 'fifties'], ['artist', 'lavern baker']]",( ROOT ( SQ ( MD ) ( NP ) ( VP ) ) ),SNIPS,33
+Play a 1964 track from Shahram Nazeri on Pandora.,PlayMusic,"[['year', '1964'], ['music_item', 'track'], ['artist', 'Shahram Nazeri'], ['service', 'Pandora']]",( ROOT ( S ( VP ) ( . ) ) ),SNIPS,34
+Please play me some Satire music,PlayMusic,"[['genre', 'Satire']]",( ROOT ( S ( INTJ ) ( VP ) ) ),SNIPS,35
+When is Crime and Punishment U.S.A. showing?,SearchScreeningEvent,"[['movie_name', 'Crime and Punishment U.S.A.']]",( ROOT ( SBARQ ( WHADVP ) ( SQ ) ( . ) ) ),SNIPS,36
+find Fox Theatres with The Caretaker,SearchScreeningEvent,"[['location_name', 'Fox Theatres'], ['movie_name', 'The Caretaker']]",( ROOT ( S ( VP ) ) ),SNIPS,37
+I would like to watch The Wedding Ring at the movie theatre,SearchScreeningEvent,"[['movie_name', 'The Wedding Ring'], ['object_location_type', 'movie theatre']]",( ROOT ( S ( NP ) ( VP ) ) ),SNIPS,38
+I want to read the book The Lion Sleeps Tonight,SearchCreativeWork,"[['object_type', 'book'], ['object_name', 'The Lion Sleeps Tonight']]",( ROOT ( S ( NP ) ( VP ) ) ),SNIPS,39
+find Join the Dots: B-sides and Rarities,SearchCreativeWork,"[['object_name', 'Join the Dots: B-sides and Rarities']]",( ROOT ( FRAG ( S ) ( : ) ( NP ) ) ),SNIPS,40
+Where can I buy a used copy of the game called I Lie Around?,SearchCreativeWork,"[['object_type', 'game'], ['object_name', 'I Lie Around']]",( ROOT ( SBARQ ( WHADVP ) ( SQ ) ( . ) ) ),SNIPS,41
+please give me the cheapest flight from denver to pittsburgh,flight,"[['cost_relative', 'cheapest'], ['fromloc.city_name', 'denver'], ['toloc.city_name', 'pittsburgh']]",( ROOT ( S ( INTJ ) ( VP ) ) ),ATIS,42
+i want to fly from milwaukee to orlando on either wednesday evening or thursday morning,flight,"[['fromloc.city_name', 'milwaukee'], ['toloc.city_name', 'orlando'], ['depart_date.day_name', 'wednesday'], ['depart_time.period_of_day', 'evening'], ['depart_date.day_name', 'thursday'], ['depart_time.period_of_day', 'morning']]",( ROOT ( S ( NP ) ( VP ) ) ),ATIS,43
+what is the lowest fare from denver to pittsburgh,airfare,"[['cost_relative', 'lowest'], ['fromloc.city_name', 'denver'], ['toloc.city_name', 'pittsburgh']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),ATIS,44
+what is the cheapest one way fare from boston to baltimore,airfare,"[['cost_relative', 'cheapest'], ['round_trip', 'one way'], ['fromloc.city_name', 'boston'], ['toloc.city_name', 'baltimore']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),ATIS,45
+what is the ground transportation from oakland to san francisco,ground_service,"[['fromloc.city_name', 'oakland'], ['toloc.city_name', 'san francisco']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),ATIS,46
+can i get a rental car in dallas,ground_service,"[['transport_type', 'rental car'], ['city_name', 'dallas']]",( ROOT ( SQ ( MD ) ( NP ) ( VP ) ) ),ATIS,47
+what airlines fly between boston and atlanta,airline,"[['fromloc.city_name', 'boston'], ['toloc.city_name', 'atlanta']]",( ROOT ( S ( SBAR ) ( NP ) ( VP ) ) ),ATIS,48
+show me the airlines between boston and denver,airline,"[['fromloc.city_name', 'boston'], ['toloc.city_name', 'denver']]",( ROOT ( S ( VP ) ) ),ATIS,49
+what does ls stand for,abbreviation,"[['meal_code', 'ls']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),ATIS,50
+what does dfw mean,abbreviation,"[['airport_code', 'dfw']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),ATIS,51

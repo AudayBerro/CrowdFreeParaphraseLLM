@@ -1,0 +1,4 @@
+input_utterance,intent,parameters,parse_template,source,row_pk
+Terminate i-a541 now,EndEC2Instance,"[['VM', 'i-a541']]",( ROOT ( FRAG ( NP ) ( ADVP ) ) ),ParaQuality,1
+what does ls stand for,abbreviation,"[['meal_code', 'ls']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),ATIS,50
+what does dfw mean,abbreviation,"[['airport_code', 'dfw']]",( ROOT ( SBARQ ( WHNP ) ( SQ ) ) ),ATIS,51

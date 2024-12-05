@@ -1,0 +1,7 @@
+stanza
+transformers
+bert_score
+termcolor
+nltk
+zss
+openai
