@@ -1,7 +1,7 @@
 # About
 Contains datasets and code for the paper "LLMs to Replace Crowdsourcing in Generating Syntactically Diverse Paraphrases for Task-Oriented Chatbots".
 
-📤 🚀 Submitted to [CAiSE'25]https://conferences.big.tuwien.ac.at/caise2025/)
+🎉 Accepted @ [CAiSE'25]https://conferences.big.tuwien.ac.at/caise2025/)
 
 ## Table of Contents
 - [Compare Syntax Template Folder](#compare-syntax-template-folder)
