@@ -1,5 +1,5 @@
 # About
-Contains datasets and code for the paper "LLMs to Replace Crowdsourcing in Generating Syntactically Diverse Paraphrases for Task-Oriented Chatbots".
+Contains datasets and code for the paper "**LLMs to Replace Crowdsourcing in Generating Syntactically Diverse Paraphrases for Task-Oriented Chatbots**".
 
 🎉 Accepted @ [CAiSE'25]https://conferences.big.tuwien.ac.at/caise2025/)
 
@@ -147,7 +147,7 @@ For more information see [LICENSE](https://github.com/AudayBerro/CrowdFreeParaph
 For more information please refer to our paper. Please also cite the following paper if you are using the dataset in your research:
 
 ```sh
-@inproceedings{berro-etal-2024-error,
+@inproceedings{berro-etal-2025-error,
     title = "LLMs to Replace Crowdsourcing in Generating Syntactically Diverse Paraphrases for Task-Oriented Chatbots",
     author = "Berro, Auday  and
       dos Santos, Vitor and
